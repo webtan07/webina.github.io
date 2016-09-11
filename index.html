@@ -4,65 +4,81 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title> Web - Resume </title>
-
+	<meta name="description" content="Webina - Resume">
+    <title> Resume - Webina</title>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/animate.css">
-	<link href="css/theme.css" rel="stylesheet">
-		
+	<link href="css/theme.css" rel="stylesheet">		
   </head>
   <body>
+     <!-- home / profile -->
 	<div class="wrapper" id="wrapper">
 		<header>
 			<div class="banner row" id="banner">		
-				<div class="parallax text-center" style="background-image: url(img/1.jpg);">
-					<div class="parallax-pattern-overlay">
-						<div class="container text-center" style="height:530px;padding-top:170px;">
-							<a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="img/2.gif" alt=""/></a>
-							<h2 class="intro"><a href="index.html"><h3 style="color:#92DD03;">Webina "Web" Tangoan</h3></a></h2>
+				<div class="webina">		
+					<div class="container text-center" style="padding-top:480px;">
+						<h2 class="intro"><a href="index.html">Webina "Web" Tangoan</a></h2>
+					</div>
+				</div>				
+			</div>
+			<div>
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<div class="container-fluid">		
+						<!--a href="#" id="menu-icon"></a-->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li><a href="#wrapper" class="active">Home</a></li>
+								<li><a href="#profile">Profile</a></li>
+								<li><a href="#experience">Experience</a></li>
+								<li><a href="#portfolio">Portfolio</a></li>
+								<li><a href="#education">Education</a></li>
+								<li><a href="#techskills">Skills</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
 						</div>
 					</div>
+				</nav>				
+			</div>
+		</header>		
+		<section id="profile">
+			<div class="container">			
+				<div class="heading text-center">				
+					<h2>  Profile Summary  </h2>
+					<h3> <p> •	A solutions-oriented and customer-focused software engineer with 7+ years of professional software development experience using varied programming languages specializing currently in both client-side and server-side JavaScript</p>
+					     <p> •	3+ years of administrative and leadership experience  </p> 
+						 <p> •	Restorative(ability to fix bugs), Individualization(ability to customize), Intellection (strong analytical skills), Strategic(finds better ways of doing) and Connectedness (ability to see patterns) based on the book Strengths Finder 2.0 by Tom Rath</p> 
+					</h3>
 				</div>
-				</div>		
-		</header>
-
-	<section>
-	     <div class="container">	
-			<div class="heading text-center">				
-				<h2>  Career Objective  </h2>
-				<h3> <p> Seeking for software engineering opportunities outside Philippines in either front-end or back-end utilizing my strengths in debugging, user interface design, development, customization, integration and support that would help in the growth of the company as well as myself.</p> </h3>
 			</div>
-		</div>
-		<div class="container">
-			<div class="heading text-center">
-				<h2>Skills Summary </h2>
-				<h3> 		
-					<p> •	7+ years of professional software development experience </br>
-						•	3+ years of administrative and leadership experience </br>
-						•	Well-rounded, detail-oriented, self-starter, quick learner and team player </br>
-						•	Fluent in verbal and written English communication skills </br>
-						•	Restorative(ability to fix bugs), Individualization(ability to customize), Intellection (strong analytical skills), Strategic(finds better ways of doing) and Connectedness (ability to see patterns) based on the book Strengths Finder 2.0 by Tom Rath
-					</p>
-				</h3>
-			</div>
-		</div>				
+			<div class="container">
+				<div class="heading text-center">
+					<h2>Areas of Expertise </h2>
+					<h3> </h3>
+				</div>
+			</div>				
 		<div class="container">
             <div class="row">				
 				<div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"">
-					<div class="skill">                      
+					<div>
 						<div class="progress-wrap">
 							<h3>Software/Applications Development</h3>
 							<div class="progress">
 							  <div class="progress-bar  color1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:90%">
 								<span class="bar-width">90%</span>
 							  </div>
-
 							</div>
 						</div>
-
 						<div class="progress-wrap">
 							<h3>Problem solving skills</h3>
 							<div class="progress">
@@ -71,7 +87,6 @@
 							  </div>
 							</div>
 						</div>
-
 						<div class="progress-wrap">
 							<h3>Enterprise Content Management</h3>
 							<div class="progress">
@@ -80,7 +95,6 @@
 							  </div>
 							</div>
 						</div>
-
 						<div class="progress-wrap">
 							<h3>API Integration</h3>
 							<div class="progress">
@@ -89,11 +103,10 @@
 							  </div>
 							</div>
 						</div>
-					</div>
-				</div>
-				
+					</div>					
+				</div>				
 				<div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s"">
-						<div class="skill">                      
+					<div>                      
 						<div class="progress-wrap">
 							<h3>User Interface Design</h3>
 							<div class="progress">
@@ -102,7 +115,6 @@
 							  </div>
 							</div>
 						</div>
-
 						<div class="progress-wrap">
 							<h3>Database Interaction</h3>
 							<div class="progress">
@@ -111,7 +123,6 @@
 							  </div>
 							</div>
 						</div>
-
 						<div class="progress-wrap">
 							<h3>Customization and Support</h3>
 							<div class="progress">
@@ -120,7 +131,6 @@
 							  </div>
 							</div>
 						</div>
-
 						<div class="progress-wrap">
 							<h3>SDLC Process</h3>
 							<div class="progress">
@@ -132,9 +142,10 @@
 					</div>
 				</div>				
 			</div>	
-		</div>
-	</section>
-    <section>	
+	   </div>
+	</section>	
+	<!-- experience -->
+    <section id="experience">	
 	    <div class="container">	
 			<div class="heading text-center">				
 				<h2>  Professional Experience </h2>
@@ -229,13 +240,12 @@
 	</section>
 
 	<!--portfolio-->
-	<section class="gallery" id="gallery">
-		<div class="container">
+	<section id="portfolio">
+		<div class="container gallery">
 			<div class="heading text-center">				
 				<h2>Portfolio</h2>
 				<h3>...still under construction...</h3>
-			</div>
-			
+			</div>			
 			<div id="grid-gallery" class="grid-gallery">
 				<section class="grid-wrap">
 					<ul class="grid">
@@ -251,7 +261,7 @@
 						</li>
 						<li>
 							<figure>
-								<img src="img/apps/2.JPG" alt=""/>
+								<a href="https://uebii.blogspot.com/"> <img src="img/apps/2.JPG" alt=""/> </a>
 								<figcaption>
 									<h3>Uebii</h3>
 									<p>This is my personal blogsite</p>
@@ -314,38 +324,49 @@
 	</section>
 	
 	<!--education-->
-	<section class="feedback" id="feedback">
+	<section id="education">	
 		<div class="container">
-			<div class="heading">
+			<div class="heading text-center">
 				<h2>Education</h2>
 				<h3></h3>
-			</div>			
-		</div>		
-		<div class="container">
-		   <div class="row">
-				<div class="col-md-8 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+				<div class="col-md-12 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
 					<div class="hi-icon-wrap hi-icon-effect">												
 						<h4>University of the Philippines - Cebu</h4>
-						<h5>BS Computer Science</h5>						
+						<h5>BS Computer Science (2005)</h5>						
 						<p>	•	Scholar of DOST (Department of Science and Technology) </br>
 							•	Part of the development team for the University’s website as an OJT </br>
 							•	Sole developer for my thesis (web-based Accounting Information System)
 						</p>
 					</div>				
-				</div>				
-				<div class="col-md-8 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">				
-					<div class="hi-icon-wrap hi-icon-effect">												
-						<h4>Every Nation Leadership Institute </h4>
-						<h5>Masters in Christian Leadership</h5>
-						<h5>Diploma in Intercultural and Urban Studies</h5>
-					</div>					
-				</div>
+				</div>					
 			</div>
-		</div>			
+		</div>	
+	</section>
+	<!-- technical skills -->
+	<section id="techskills">
+		<div class="container">
+			<div class="heading text-center">
+				<h2>Technical Skills</h2>	
+				<div class="col-md-12 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="tech">
+						<p>	<h5>Languages/Protocols</h5> <b>Javascript </b>, HTML/5, CSS/3,  XML, XSL, C/C++, Java/J2EE, VB script, C#.net, PHP 
+							<h5>Frameworks/Libraries</h5> iScript, Jquery, Liferay, Struts, DHTMLX, sugarCRM,Bootstrap, Cordova, Angular JS 
+							<h5>Database</h5> MySQL, SQL Server 2005/2008, PostgreSQL, Oracle
+							<h5>OS Platform/Platform</h5> Windows, Linux, Solaris, Cloud,<b>Node.js </b> 
+							<h5>Version Control/IDE</h5>SVN, Git,Eclipse, Visual Studio, Sublime, Notepad++
+							<h5>Processes</h5>  Agile & Kanban; Object-oriented Analysis and Design
+							<h5>Others</h5> Peoplesoft, Salesforce, JIRA, VMWare, RDBMS, MVC
+						 </p>
+					</div>
+				</div>
+			</div>	
+			<div class="row">
+			</div>
+		</div>	
 	</section>
 	
 	<!--contact-->
-	<section class="contact" >		
+	<section class="contact" id="contact">		
 		<div class="container">
 			<div class="heading">
 				<h2>Contact</h2>
@@ -361,15 +382,13 @@
 					</div>
 				</div>
 				<div class="col-md-5">
-					<div class="contact-info">				   
-						<h4></h4>
-						<h5></h5>						
+					<div class="contact-info text-center">			   						
 						<ul>							
 						    <li> <h4 class="padTemp"> My Contact Info </h4> </li>
 							<li><i class="fa fa-home fa-2x"></i> 6015 Cebu, Philippines </li>
 							<li><i class="fa fa-phone fa-2x"></i> +63 923 135 8865</li>
 							<li><i class="fa fa-envelope fa-2x"></i> web.tangoan@gmail.com</li>
-							<li><i class="fa fa-download fa-2x"></i><a href="WEBINA.pdf" download="Webina.pdf"> Download My Resume</a></li>
+							<li><i class="fa fa-download fa-2x"></i><a href="WEBINA.pdf" download="Webina.pdf"><h5>Download My Resume</h5></a></li>
 						</ul>				
 					</div>
 				</div>
@@ -381,7 +400,10 @@
 	<section class="footer" id="footer">	    
 		<p class="text-center">
 			<a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
-		</p>		
+		</p>
+		<div class="container">
+			<p>Disclaimer:Some images, icons and templates used are derived from the internet.</br>&copy; 2016 Webina </p>
+		</div>
 	</section>
 		
 	</div>
@@ -389,7 +411,6 @@
 	<script src="js/modernizr.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>	
-	<script src="js/parallax.js"></script>
 	<script src="js/easing.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/smoothscroll.js"></script>
@@ -405,7 +426,7 @@
 	 {
 	
 		}	) 
-		.init();
+		.init();	
 	</script>	
 
   </body>

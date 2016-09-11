@@ -20,8 +20,6 @@ function parallaxInit() {
     });
 }
 
-
-
 // Somth page scroll
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -38,8 +36,30 @@ $(function() {
   });
 });
 
+//switch to active navigation
+	$(document).ready(function() {
+		 $('#myNavbar ul li a').on('click', function(e) {
+		   
+		 $('a').each(function(){
+			  $(this).removeClass('active');
+		 })
+		 $(this).addClass("active");
+		 });
+	});
+
 // =============================================
 // END THEME SCRIPTS
 // =============================================
 	
 });
+
+/*
+function setActive() {
+  aObj = document.getElementById('nav').getElementsByTagName('a');
+  for(i=0;i<aObj.length;i++) { 
+    if(document.location.href.indexOf(aObj[i].href)>=0) {
+      aObj[i].className='active';
+    }
+  }
+}
+window.onload = setActive;*/
