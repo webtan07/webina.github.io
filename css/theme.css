@@ -282,6 +282,23 @@ img#site-title {
 .progress .color4 span:before{
   border-color: #db3615 transparent transparent transparent;
 }
+
+.progress .color5 span:before{
+  border-color: #a4a42f transparent transparent transparent;
+}
+
+.progress .color6 span:before{
+  border-color: #a42d7d transparent transparent transparent;
+}
+
+.progress .color7 span:before{
+  border-color: #2da490 transparent transparent transparent;
+}
+
+.progress .color8 span:before{
+  border-color: #4254ad transparent transparent transparent;
+}
+
 .specialties img {
 	margin-top:30px;
 	margin-bottom:50px;
@@ -598,7 +615,8 @@ span.nav-close:before {
 }
 .tech h5{
 	color:#333;
-	font-weight:480;
+	font-weight:520;
+	font-size: 16px;
 	line-height: 1;
 }
 
@@ -641,6 +659,13 @@ span.nav-close:before {
 
 .padTemp {
    padding-top:30px;
+}
+
+.download-style{
+	color:#323232;
+	padding-left: 15px;
+	font-family: 'Arial';
+	font-size: 16px;
 }
 
 input.contact {
