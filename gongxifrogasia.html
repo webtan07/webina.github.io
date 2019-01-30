@@ -49,7 +49,7 @@
     </p>   
     <br>
     <br>     
-    <div id="dialog" class="sharePop">
+    <div id="shareDialog" class="sharePop">
 	  <p>"Gong Xi this experience with your other Frog friends and see who gets the highest score!"</p>	  
 	  <p>        
         <span>
@@ -72,7 +72,7 @@
 
 <script>
 
-var div = document.getElementById('dialog');
+var div = document.getElementById('shareDialog');
 if (div.style.display === "none") {
     div.style.display = "block";
 } else {
@@ -179,18 +179,7 @@ function component(width, height, color, x, y, type) {
 function showPopUp()
 {
     $( function() {
-        $( "#dialog" ).dialog({
-            dialogClass: "no-close",
-            buttons:[
-            {
-                text: "",
-                click: function() {
-                    $(this).dialog("close");
-                }
-            }
-            ]
-        }
-        );
+        $( "#shareDialog" ).dialog();
     } );
 }
 
