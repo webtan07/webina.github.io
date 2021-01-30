@@ -93,14 +93,14 @@ header {
 
 /* --- webina --- */
 .webina{
-	background-image: url(../img/web.jpg);
+	background-image: url(../img/headshot.png);
 	background-repeat:no-repeat;
 	background-position:center center;
 	overflow:hidden;
 }
 
 @media (max-width: 880px) {
-	.webina {background-image: url(../img/2.gif);
+	.webina {background-image: url(../img/headshot.png);
 	}
 }
 
